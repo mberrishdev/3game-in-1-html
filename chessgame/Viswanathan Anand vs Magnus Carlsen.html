@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tata Steel Chess 2020</title>
+    <link rel="stylesheet" href="stylechessboard.css">
+    <script src="myScript.js"></script>        
+</head>
+
+<body style="background-color:lightcoral;">
+    
+    <h1 id="t03"><a href="https://tatasteelchess.com/">Tata Steel Chess 2020</a></h1>
+    <hr>
+    <h2 id="t03"><a href="https://en.wikipedia.org/wiki/Viswanathan_Anand">Viswanathan Anand</a><sup>White</sup> vs <a href="https://en.wikipedia.org/wiki/Magnus_Carlsen">Magnus Carlsen</a><sup>Black</sup> </h2>
+    <h4 id="t03"><a href="https://youtu.be/Jif8xdti7iY">Video of the game (YouTube)</a></h4>
+    <h3 id="t03" >18 January 2020</h3>
+    <hr>
+
+    <table>
+        <tr id="t02">
+            <td>Current time:</td>
+            <td></td>
+            <td>8</td>
+            <td>:</td>
+            <td>52</td>
+        </tr>
+    </table>
+    <table class="table" >
+        
+        <tr id="t01" id="t03">    
+            <td id="0:9"></td>
+            <td id="1:9">A</td>
+            <td id="2:9">B</td>
+            <td id="3:9">C</td>
+            <td id="4:9">D</td>
+            <td id="5:9">E</td>
+            <td id="6:9">F</td>
+            <td id="7:9">G</td>
+            <td id="8:9">H</td>
+            <td id="9:9"></td>   
+        <tr>
+            <td id="t01" id="0:8">
+                8
+            </td>
+            <td class="white" id="1:8" onclick="changecol(this.id)"></td>
+            <td class="black" id="2:8" onclick="changecol(this.id)"><img src="photo/Black Rook.png" alt="Black_Rook"></td>
+            <td class="white" id="3:8" onclick="changecol(this.id)"></td>
+            <td class="black" id="4:8" onclick="changecol(this.id)"></td>
+            <td class="white" id="5:8" onclick="changecol(this.id)"></td>
+            <td class="black" id="6:8" onclick="changecol(this.id)"></td>
+            <td class="white" id="7:8" onclick="changecol(this.id)"><img src="photo/Black King.png" alt="Black_King"></td>
+            <td class="black" id="8:8" onclick="changecol(this.id)"></td>
+            <td id="t01" id="9:8"> 
+                8
+            </td>
+        </tr>
+        <tr>
+            <td id="t01" id="0:7">
+                7
+            </td>
+            <td class="black" id="1:7" onclick="changecol(this.id)"></td>
+            <td class="white" id="2:7" onclick="changecol(this.id)"><img src="photo/Black Bishop.png" alt="Black_Bishop"></td>
+            <td class="black" id="3:7" onclick="changecol(this.id)"></td>
+            <td class="white" id="4:7" onclick="changecol(this.id)"></td>
+            <td class="black" id="5:7" onclick="changecol(this.id)"><img src="photo/White Pawn.png" alt="White_Pawn"></td>
+            <td class="white" id="6:7" onclick="changecol(this.id)"><img src="photo/Black Pawn.png" alt="Black_Pawn"></td>
+            <td class="black" id="7:7" onclick="changecol(this.id)"></td>
+            <td class="white" id="8:7" onclick="changecol(this.id)"></td>
+            <td id="t01"id="9:7">
+               7
+            </td>
+        </tr>
+        <tr>
+            <td id="t01" id="0:6">
+               6
+            </td>
+            </td>
+            <td class="white" id="1:6" onclick="changecol(this.id)"></td>
+            <td class="black" id="2:6" onclick="changecol(this.id)"></td>
+            <td class="white" id="3:6" onclick="changecol(this.id)"></td>
+            <td class="black" id="4:6" onclick="changecol(this.id)"></td>
+            <td class="white" id="5:6" onclick="changecol(this.id)"><img src="photo/Black Knight.png" alt="Black_Knight"></td>
+            <td class="black" id="6:6" onclick="changecol(this.id)"></td>
+            <td class="white" id="7:6" onclick="changecol(this.id)"><img src="photo/Black Pawn.png" alt="Black_Pawn"></td>
+            <td class="black" id="8:6" onclick="changecol(this.id)"></td>
+            <td id="t01"id="9:6">
+                6
+            </td>
+        </tr>
+        <tr>
+            <td id="t01" id="0:5">
+                5 <p></p>
+            </td>
+            <td class="black" id="1:5" onclick="changecol(this.id)"></td>
+            <td class="white" id="2:5" onclick="changecol(this.id)"><img src="photo/White Knight.png" alt="White_Knight"></td>
+            <td class="black" id="3:5" onclick="changecol(this.id)"></td>
+            <td class="white" id="4:5" onclick="changecol(this.id)"></td>
+            <td class="black" id="5:5" onclick="changecol(this.id)"></td>
+            <td class="white" id="6:5" onclick="changecol(this.id)"></td>
+            <td class="black" id="7:5" onclick="changecol(this.id)"></td>
+            <td class="white" id="8:5" onclick="changecol(this.id)"><img src="photo/Black Pawn.png" alt="Black_Pawn"></td>
+            <td id="t01"id="9:5">
+               5
+            </td>
+        </tr>
+        <tr>
+            <td id="t01" id="0:4">
+                4
+            </td>
+            <td class="white" id="1:4" onclick="changecol(this.id)"></td>
+            <td class="black" id="2:4" onclick="changecol(this.id)"></td>
+            <td class="white" id="3:4" onclick="changecol(this.id)"><img src="photo/White Rook.png" alt="White_Rook"></td>
+            <td class="black" id="4:4" onclick="changecol(this.id)"></td>
+            <td class="white" id="5:4" onclick="changecol(this.id)"></td>
+            <td class="black" id="6:4" onclick="changecol(this.id)"></td>
+            <td class="white" id="7:4" onclick="changecol(this.id)"></td>
+            <td class="black" id="8:4" onclick="changecol(this.id)"><img src="photo/White Pawn.png" alt="White_Pawn">></td>
+            <td id="t01" id="9:4">
+                4
+            </td>
+        </tr>
+        <tr>
+            <td id="t01" id="0:3">
+                3
+             </td>
+            <td class="black" id="1:3" onclick="changecol(this.id)"></td>
+            <td class="white" id="2:3" onclick="changecol(this.id)"></td>
+            <td class="black" id="3:3" onclick="changecol(this.id)"></td>
+            <td class="white" id="4:3" onclick="changecol(this.id)"></td>
+            <td class="black" id="5:3" onclick="changecol(this.id)"></td>
+            <td class="white" id="6:3" onclick="changecol(this.id)"></td>
+            <td class="black" id="7:3" onclick="changecol(this.id)"><img src="photo/White Pawn.png" alt="White_Pawn"></td>
+            <td class="white" id="8:3" onclick="changecol(this.id)"></td>
+            <td id="t01" id="9:3">
+                3
+            </td>
+        </tr>
+        <tr>
+            <td id="t01" id="0:2">
+                2
+            </td>
+            <td class="white" id="1:2" onclick="changecol(this.id)"></td>
+            <td class="black" id="2:2" onclick="changecol(this.id)"></td>
+            <td class="white" id="3:2" onclick="changecol(this.id)"></td>
+            <td class="black" id="4:2" onclick="changecol(this.id)"></td>
+            <td class="white" id="5:2" onclick="changecol(this.id)"></td>
+            <td class="black" id="6:2" onclick="changecol(this.id)"><img src="photo/White Pawn.png" alt="White_Pawn"></td>
+            <td class="white" id="7:2" onclick="changecol(this.id)"><img src="photo/White King.png" alt="White_King"></td>
+            <td class="black" id="8:2" onclick="changecol(this.id)"></td>
+            <td id="t01" id="+:2">
+                2
+            </td>
+        </tr>
+        <tr>
+            <td id="t01" id="0:1">
+                1
+            </td>
+            <td class="black" id="1:1" onclick="changecol(this.id)"></td>
+            <td class="white" id="2:1" onclick="changecol(this.id)"></td>
+            <td class="black" id="3:1" onclick="changecol(this.id)"></td>
+            <td class="white" id="4:1" onclick="changecol(this.id)"></td>
+            <td class="black" id="5:1" onclick="changecol(this.id)"></td>
+            <td class="white" id="6:1" onclick="changecol(this.id)"></td>
+            <td class="black" id="7:1" onclick="changecol(this.id)"></td>
+            <td class="white" id="8:1" onclick="changecol(this.id)"></td>
+            <td id="t01"id="9:1">
+                1
+            </td>
+        </tr>
+        <tr id="t01">
+            <td id="0:0"></td>
+            <td id="1:0">A</td>
+            <td id="2:0">B</td>
+            <td id="3:0">C</td>
+            <td id="4:0">D</td>
+            <td id="5:0">E</td>
+            <td id="6:0">F</td>
+            <td id="7:0">G</td>
+            <td id="8:0">H</td>
+            <td id="9:0"></td>
+        </tr>
+      </table> 
+</body>
+</html> 
